@@ -1,5 +1,5 @@
-const video = document.getElementById('video')
 alert("Please enable 'hardware acceleration' in ur brower seetings for better experience :)")
+const video = document.getElementById('video')
 Promise.all([
     faceapi.nets.tinyFaceDetector.loadFromUri('/models'),
     faceapi.nets.faceLandmark68Net.loadFromUri('/models'),
